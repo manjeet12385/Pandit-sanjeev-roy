@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Pandit Sanjeev Roy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            color: #8b1e1e;
+            line-height: 1.7;
+        }
+
+        .about-section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .about-heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .about-heading span {
+            color: #c58a22;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        .about-heading h1 {
+            color: #8b1e1e;
+            margin: 10px 0;
+            font-size: 38px;
+        }
+
+        .about-heading p {
+            max-width: 750px;
+            margin: auto;
+            color: #666;
+            font-size: 17px;
+        }
+
+        .pandit-profile {
+            display: grid;
+            grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+            align-items: center;
+            gap: 45px;
+            background: #fffaf3;
+            border-radius: 16px;
+            padding: 35px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .pandit-profile img {
+            width: 100%;
+            height: 520px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .profile-content h2 {
+            color: #8b1e1e;
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .profile-content h3 {
+            color: #c58a22;
+            margin-bottom: 18px;
+        }
+
+        .profile-content p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.9;
+            margin-bottom: 14px;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 35px 0;
+        }
+
+        .experience-card {
+            background: #fffaf3;
+            border: 1px solid #ead8c5;
+            border-radius: 10px;
+            padding: 24px 18px;
+            text-align: center;
+        }
+
+        .experience-card strong {
+            display: block;
+            color: #8b1e1e;
+            font-size: 28px;
+            margin-bottom: 6px;
+        }
+
+        .experience-card span {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .about-story,
+        .about-services,
+        .devotion-images {
+            margin-top: 45px;
+        }
+
+        .about-story h2,
+        .about-services h2,
+        .devotion-images h2 {
+            color: #8b1e1e;
+            margin-bottom: 16px;
+            font-size: 30px;
+        }
+
+        .about-story p,
+        .about-services p {
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 14px;
+        }
+
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px 25px;
+            margin-top: 18px;
+        }
+
+        .service-list span {
+            background: #fffaf3;
+            border-left: 4px solid #c58a22;
+            padding: 12px 15px;
+            color: #555;
+        }
+
+        .devotion-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .devotion-gallery img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .about-heading h1 {
+                font-size: 28px;
+            }
+
+            .pandit-profile {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .pandit-profile img {
+                height: 390px;
+            }
+
+            .experience-grid,
+            .devotion-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .service-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+     <div id="header"></div>
+
+    <section class="about-section">
+        <div class="about-heading">
+            <span>ABOUT PANDIT JI</span>
+            <h1>Meet Pandit Sanjeev Roy</h1>
+            <p>Dedicated guidance for traditional Hindu puja, Vedic rituals and meaningful religious ceremonies.</p>
+        </div>
+
+        <div class="pandit-profile">
+            <img src="IMAGES/image copy 2.png" alt="Pandit Sanjeev Rai Ji">
+
+            <div class="profile-content">
+                <h2>Pandit Sanjeev Roy</h2>
+                <h3>Traditional Pandit with 13+ Years of Experience</h3>
+                <p>
+                    Pandit Sanjeev Roy is a devoted and experienced priest who performs
+                    Hindu religious ceremonies with dedication, discipline and proper
+                    adherence to traditional Vedic rituals.
+                </p>
+                <p>
+                    With more than 13 years of experience, Pandit Ji offers guidance for
+                    pujas performed at homes, temples and special family occasions.
+                    Every ceremony is conducted with patience, clarity and respect for
+                    age-old Hindu traditions.
+                </p>
+                <p>
+                    His aim is to help devotees understand every important step of the
+                    puja, keep the rituals organised and create a peaceful, devotional
+                    atmosphere for the entire family.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience-grid">
+            <div class="experience-card">
+                <strong>13+</strong>
+                <span>Years of Religious Experience</span>
+            </div>
+            <div class="experience-card">
+                <strong>Vedic</strong>
+                <span>Traditional Ritual Guidance</span>
+            </div>
+            <div class="experience-card">
+                <strong>Personal</strong>
+                <span>Attention for Every Ceremony</span>
+            </div>
+        </div>
+
+        <div class="about-story">
+            <h2>Our Approach to Every Puja</h2>
+            <p>
+                Pandit Sanjeev Rai Ji believes that a puja is not only a ritual, but a
+                spiritual experience that brings faith, positivity and harmony into a
+                family. The preparation begins with understanding the devotee's needs,
+                the purpose of the ceremony and the required samagri.
+            </p>
+            <p>
+                During the ceremony, each mantra and ritual is performed according to
+                traditional customs. Families are guided properly so that they can take
+                part in the puja with understanding and devotion. Special attention is
+                given to maintaining proper procedure, auspicious timing and a calm
+                environment.
+            </p>
+        </div>
+
+        <div class="about-services">
+            <h2>Puja and Religious Services</h2>
+            <p>
+                Pandit Ji provides traditional services for daily worship and important
+                family celebrations. Services can be discussed according to the required
+                date, location and complete ritual details.
+            </p>
+            <div class="service-list">
+                <span>Durga Puja, Kali Puja and Lakshmi Puja</span>
+                <span>Saraswati Puja and Ganesh Puja</span>
+                <span>Satyanarayan Katha and Havan</span>
+                <span>Griha Pravesh and Vastu Shanti Puja</span>
+                <span>Marriage, Mundan and Annaprashan Ceremonies</span>
+                <span>Rudrabhishek, Navgraha and Shradh Services</span>
+            </div>
+        </div>
+
+        <div class="devotion-images">
+            <h2>Traditional Worship and Ceremonies</h2>
+            <div class="devotion-gallery">
+                <img src="IMAGES/durag ma.png" alt="Durga Puja">
+                <img src="IMAGES/havan puja.png" alt="Havan Puja">
+                <img src="IMAGES/marraige ceremony.png" alt="Marriage Ceremony">
+            </div>
+        </div>
+
+    </section>
+
+   
+    
+<div id="footer"></div>
+<script src="header.js"></script>
+<script src="footer.js"></script>
+<script src="contact-actions.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+/* Common Responsive CSS */
+
+/* All devices */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    .container {
+        width: 94%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    input, textarea, select, button {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
