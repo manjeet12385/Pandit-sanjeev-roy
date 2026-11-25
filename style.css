@@ -1280,3 +1280,56 @@ header {
         font-size: 25px;
     }
 }
+
+.language-box {
+    display: inline-block;
+    margin: 10px;
+}
+
+#google_translate_element {
+    display: inline-block;
+}
+
+.goog-te-gadget {
+    font-size: 14px !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.goog-te-gadget select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+iframe.goog-te-banner-frame,
+.goog-te-banner-frame,
+body > .skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+@media (min-width: 769px) {
+    .navbar .logo {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar .language-box {
+        flex: 0 0 auto;
+        margin: 0 4px;
+    }
+
+    .navbar .goog-te-gadget {
+        font-size: 0 !important;
+    }
+
+    .navbar .goog-te-gadget select {
+        max-width: 88px;
+        padding: 5px 3px;
+        font-size: 12px !important;
+    }
+}

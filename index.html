@@ -44,6 +44,11 @@
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="services.html">Services</a></li>
         </ul>
+     <div class="language-box">
+    <div id="google_translate_element"></div>
+</div>
+
+<button class="menu-btn" id="menuBtn"   
 
         <button class="menu-btn" id="menuBtn"
                 aria-label="Toggle navigation"
@@ -563,5 +568,24 @@
 
     <script src="script.js"></script>
     <script src="contact-actions.js"></script>
+
+<script>
+function googleTranslateElementInit() {
+
+    new google.translate.TranslateElement({
+
+        pageLanguage: 'en',
+
+        includedLanguages: 'en,hi,bn',
+
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+
+    }, 'google_translate_element');
+
+}
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </body>
 </html>
