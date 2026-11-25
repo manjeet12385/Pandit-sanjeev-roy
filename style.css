@@ -1305,7 +1305,7 @@ header {
 }
 iframe.goog-te-banner-frame,
 .goog-te-banner-frame,
-body > .skiptranslate {
+body > .skiptranslate:has(iframe.goog-te-banner-frame) {
     display: none !important;
 }
 
